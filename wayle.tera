@@ -1,0 +1,24 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+[styling.palette]
+# Background
+bg = "{{ base.hex }}"          # Base
+surface = "{{ mantle.hex }}"     # Mantle
+elevated = "{{ surface0.hex }}"    # Surface 0
+primary = "{{ text.hex }}"     # Text
+
+# Foreground & text
+fg = "{{ text.hex }}"          # Text
+fg-muted = "{{ subtext0.hex }}"    # Subtext 0
+
+# Color palette
+blue = "{{ lavender.hex }}"        # Lavender
+green = "{{ teal.hex }}"       # Teal
+red = "{{ peach.hex }}"         # Peach
+yellow = "{{ yellow.hex }}"      # Yellow
