@@ -7,7 +7,7 @@ primary = "#4c4f69"     # Text
 
 # Foreground & text
 fg = "#4c4f69"          # Text
-fg-muted   = "#6c6f85"  # Subtext 0
+fg-muted = "#6c6f85"    # Subtext 0
 
 # Color palette
 blue = "#7287fd"        # Lavender
