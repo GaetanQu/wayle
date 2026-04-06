@@ -1,0 +1,16 @@
+[styling.palette]
+# Background
+bg = "#303446"          # Base
+surface = "#292c3c"     # Mantle
+elevated = "#414559"    # Surface 0
+
+# Foreground & text
+fg = "#c6d0f5"          # Text
+fg-muted = "#a5adce"    # Subtext 0
+
+# Color palette
+primary = "#f2d5cf"     # Rosewater (Accent)
+blue = "#babbf1"        # Lavender
+green = "#81c8be"       # Teal
+red = "#ef9f76"         # Peach
+yellow = "#e5c890"      # Yellow
