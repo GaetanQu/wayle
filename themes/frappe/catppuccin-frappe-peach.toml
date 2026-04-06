@@ -3,13 +3,13 @@
 bg = "#303446"          # Base
 surface = "#292c3c"     # Mantle
 elevated = "#414559"    # Surface 0
-primary = "#c6d0f5"     # Text
 
 # Foreground & text
 fg = "#c6d0f5"          # Text
 fg-muted = "#a5adce"    # Subtext 0
 
 # Color palette
+primary = "#ef9f76"     # Peach (Accent)
 blue = "#babbf1"        # Lavender
 green = "#81c8be"       # Teal
 red = "#ef9f76"         # Peach
