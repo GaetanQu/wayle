@@ -1,0 +1,16 @@
+[styling.palette]
+# Background
+bg = "#24273a"
+surface = "#1e2030"
+elevated = "#363a4f"
+
+# Foreground & text
+primary = "#cad3f5"
+fg = "#cad3f5"
+fg-muted = "#a5adcb"
+
+# Color palette
+blue = "#8aadf4"
+green = "#a6da95"
+red = "#ed8796"
+yellow = "#eed49f"

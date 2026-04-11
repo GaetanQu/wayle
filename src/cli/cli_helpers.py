@@ -1,7 +1,7 @@
 from InquirerPy import inquirer
 from InquirerPy.separator import Separator
-import palette_utils
-from config_manager import ConfigManager
+import cli.palette_utils
+from cli.config_manager import ConfigManager
 
 class MenuOption():
     def __init__(self, label:str, action:callable = None, value:str = None):
