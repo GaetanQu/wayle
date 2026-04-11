@@ -1,16 +1,16 @@
 [styling.palette]
 # Background
-bg = "#24273a"          # Base
-surface = "#1e2030"     # Mantle
-elevated = "#363a4f"    # Surface 0
-primary = "#cad3f5"     # Text
+bg = "#24273a"
+surface = "#1e2030"
+elevated = "#363a4f"
 
 # Foreground & text
-fg = "#cad3f5"          # Text
-fg-muted = "#a5adcb"    # Subtext 0
+primary = "#cad3f5"
+fg = "#cad3f5"
+fg-muted = "#a5adcb"
 
 # Color palette
-blue = "#b7bdf8"        # Lavender
-green = "#8bd5ca"       # Teal
-red = "#f5a97f"         # Peach
-yellow = "#eed49f"      # Yellow
+blue = "#8aadf4"
+green = "#a6da95"
+red = "#ed8796"
+yellow = "#eed49f"
