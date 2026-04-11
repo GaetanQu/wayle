@@ -8,17 +8,17 @@ whiskers:
 ---
 [styling.palette]
 # Background
-bg = "{{ base.hex }}"          # Base
-surface = "{{ mantle.hex }}"     # Mantle
-elevated = "{{ surface0.hex }}"    # Surface 0
-primary = "{{ text.hex }}"     # Text
+bg = "{{ base.hex }}"
+surface = "{{ mantle.hex }}"
+elevated = "{{ surface0.hex }}"
 
 # Foreground & text
-fg = "{{ text.hex }}"          # Text
-fg-muted = "{{ subtext0.hex }}"    # Subtext 0
+primary = "{{ text.hex }}"
+fg = "{{ text.hex }}"
+fg-muted = "{{ subtext0.hex }}"
 
 # Color palette
-blue = "{{ lavender.hex }}"        # Lavender
-green = "{{ teal.hex }}"       # Teal
-red = "{{ peach.hex }}"         # Peach
-yellow = "{{ yellow.hex }}"      # Yellow
+blue = "{{ blue.hex }}"
+green = "{{ green.hex }}"
+red = "{{ red.hex }}"
+yellow = "{{ yellow.hex }}"
