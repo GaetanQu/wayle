@@ -1,5 +1,5 @@
 from catppuccin import PALETTE
-from recommended import Recommended
+from cli.recommended import Recommended
 
 Recommended = Recommended()
 

@@ -1,25 +1,20 @@
-[project]
-name = "cli"
+[tool.poetry]
+name = "wayle-ctp"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "GaetanQu",email = "gaetan.quenouille.gq@gmail.com"}
-]
+authors = ["GaetanQu <gaetan.quenouille.gq@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.14,<4.0"
-dependencies = [
-    "catppuccin (>=2.5.0,<3.0.0)",
-    "inquirerpy (>=0.3.4,<0.4.0)",
-    "tomlkit (>=0.14.0,<0.15.0)",
-]
 
-[tool.poetry]
-name = "wayle"
-version = "0.1.0"
 packages = [{include = "cli", from = "src"}]
 
+[tool.poetry.dependencies]
+python = ">=3.14,<4.0"
+catppuccin = ">=2.5.0,<3.0.0"
+inquirerpy = ">=0.3.4,<0.4.0"
+tomlkit = ">=0.14.0,<0.15.0"
+
 [tool.poetry.scripts]
-wayle = "cli.main:main"
+wayle-ctp = "cli.main:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

@@ -1,8 +1,8 @@
 # Functions imports
-from cli_helpers import *
+from cli.cli_helpers import *
 
 # Config import
-from config import config
+from cli.config import config
 
 def main():
     main_menu = Menu(
