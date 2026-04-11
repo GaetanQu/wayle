@@ -35,18 +35,37 @@
 </details>
 
 ## Usage
-
+### *There are two ways to style Wayle with Catppuccin*
+### **You can either download and set a theme manually**
 1. Download the [flavor](./themes) of your choice.
 2. Copy the whole *[[styling.palette]]* section and paste it into *~/.config/wayle/config.toml*
-3. Configure *~/.config/wayle/config.toml* so that your modules use your colors
+### **Or create your own theme files with the CLI**
+> ⚠️ Requires Python ≥ 3.12 and pipx recommended for CLI usage.
+### 🚀 With pipx (recommended)
+```sh
+pipx install https://github.com/GaetanQu/wayle/releases/download/v0.1.0/wayle_ctp-0.1.0-py3-none-any.whl # First install the CLI
+
+wayle-ctp # Then you can run it whenever you want with this command
+```
+### 📜 With poetry
+```sh
+wget https://github.com/GaetanQu/wayle/releases/download/v0.1.0/wayle_ctp-0.1.0.tar.gz # Install the latest release
+
+tar -xzf wayle_ctp-0.1.0.tar.gz # Extract the archive
+
+cd wayle_ctp-0.1.0 # cd into extracted folder
+
+poetry install # Install dependencies
+
+poetry run wayle-ctp # Run the CLI
+```
+
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
 
 - Q: **_"How do I configure Wayle ?"_**\
-  A: Take a look to the [wayle repository](https://github.com/wayle-rs/wayle) or to *~/.config/wayle/config.toml.example*. You will see all the available options, try them, and enjoy !
-- Q: **_"How can I choose between other colors than the ones already implemented ?"_**\
-  A: Check releases, or just select your favourite colors from the [catppuccin palette](https://catppuccin.com/palette/) and manually apply them into *~/.config/wayle/config/toml*
+  A: Take a look to the [wayle repository](https://github.com/wayle-rs/wayle) or to *~/.config/wayle/config.toml.example*. You will see all the available options, try them, and enjoy ! (Since Wayle is still a WIP project, there is no wiki yet)
 
 ## 💝 Thanks to
 
