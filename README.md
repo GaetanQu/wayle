@@ -46,7 +46,7 @@
 - Q: **_"How do I configure Wayle ?"_**\
   A: Take a look to the [wayle repository](https://github.com/wayle-rs/wayle) or to *~/.config/wayle/config.toml.example*. You will see all the available options, try them, and enjoy !
 - Q: **_"How can I choose between other colors than the ones already implemented ?"_**\
-  A: Either wait for the CLI configurator (WIP), or just select your favourite colors from the [catppuccin palette](https://catppuccin.com/palette/) and manually apply them into *~/.config/wayle/config/toml*
+  A: Check releases, or just select your favourite colors from the [catppuccin palette](https://catppuccin.com/palette/) and manually apply them into *~/.config/wayle/config/toml*
 
 ## 💝 Thanks to
 
